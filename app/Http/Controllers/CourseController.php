@@ -19,13 +19,13 @@ class CourseController extends Controller
 
         $categories = Category::withCount('posts')->orderBy('posts_count', 'desc')->take(10)->get();
 
-        $tags = Tag::latest()->take(50)->get();
+
 
         return view('blog', [
             'posts' => $posts,
             'recent_posts' => $recent_posts,
             'categories' => $categories,
-            'tags' => $tags
+            
         ]);
     }
 }

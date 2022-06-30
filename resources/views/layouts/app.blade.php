@@ -689,7 +689,7 @@ id="menu-item-5">Add New Users</a>
                         class="block px-2 py-4 text-sm transition duration-300 border-blue-500 hover:text-indigo-500"
                         aria-label="Contact" id="contacthlm">Contact us</a></li>
                 {{-- Blog --}}
-                <li><a href="{{ route('blog') }}"
+                <li><a href="{{ route('services') }}"
                         class="block px-2 py-4 text-sm transition duration-300 border-blue-500 hover:text-indigo-500"
                         aria-label="Blog" id="bloghlm">Services</a></li>
                 {{-- Categories --}}
