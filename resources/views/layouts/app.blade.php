@@ -676,7 +676,7 @@ id="menu-item-5">Add New Users</a>
                     aria-label="Company">Company</button>
                         {{-- Company Dropdown --}}
                         <div class="hidden" id="companydrpdwn">
-                            <p class="text-gray-900 my-5 ml-5 font-bold"><a href="">About Us</p></a>
+                            <p class="text-gray-900 my-5 ml-5 font-bold"><a href="{{route('about')}}">About Us</p></a>
                             <p class="text-gray-900 my-5 ml-5 font-bold"><a href="">Careers</p></a>
                         </div>
                     </li>
