@@ -238,7 +238,7 @@ if (Auth::check()) {
                     <ul>
 
                         <li>
-                    {{-- <a href="{{ route('admin.service.index') }}"><i class="bx bx-right-arrow-alt"></i>All services</a> --}}
+                    {{-- <a href="{{ route('services') }}"><i class="bx bx-right-arrow-alt"></i>All services</a> --}}
                 </li>
                         <li>
                             {{-- <a href="{{ route('admin.service.create') }}"><i class="bx bx-right-arrow-alt"></i>Add New services</a> --}}

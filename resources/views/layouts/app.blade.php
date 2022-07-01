@@ -634,7 +634,7 @@ id="menu-item-5">Add New Users</a>
                 aria-label="Services">Services</button>
                     {{-- Services Dropdown --}}
                     <div class="hidden" id="servicedrpdwn">
-                        <p class="text-gray-900 my-5 ml-5 font-bold"><a href="">All Services</p></a>
+                        <p class="text-gray-900 my-5 ml-5 font-bold"><a href="{{ route('services') }}">All Services</p></a>
                         <p class="text-gray-900 my-5 ml-5 font-bold"><a href="">Ideation & Strategy</p></a>
                         <p class="my-5"><a href="" class="ml-10">Product Strategy</a></p>
                         <p class="my-5"><a href="" class="ml-10">Digital Transformation</a></p>
@@ -688,10 +688,7 @@ id="menu-item-5">Add New Users</a>
                 <li><a href="{{ route('contact.create') }}"
                         class="block px-2 py-4 text-sm transition duration-300 border-blue-500 hover:text-indigo-500"
                         aria-label="Contact" id="contacthlm">Contact us</a></li>
-                {{-- Blog --}}
-                <li><a href="{{ route('services') }}"
-                        class="block px-2 py-4 text-sm transition duration-300 border-blue-500 hover:text-indigo-500"
-                        aria-label="Blog" id="bloghlm">Services</a></li>
+               
                 {{-- Categories --}}
                 <li><a href="{{ route('categories.index') }}"
                         class="block px-2 py-4 text-sm transition duration-300 border-blue-500 hover:text-indigo-500"
